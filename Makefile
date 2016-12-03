@@ -24,4 +24,4 @@ twitch.min.js: twitch.js
 clean:
 	rm -f twitch{,.min}.js
 
-.PHONY: test docs
+.PHONY: all test docs clean
